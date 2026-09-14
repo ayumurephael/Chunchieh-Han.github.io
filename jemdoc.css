@@ -291,6 +291,91 @@ table + table {
 	margin-top: 1em;
 }
 
+table.course-table {
+	width: 100%;
+	max-width: 720px;
+	border: 1px solid #aaaaaa;
+	margin-top: 0.7em;
+}
+
+table.course-table th,
+table.course-table td {
+	padding: 0.45em 0.7em;
+	border: 1px solid #cccccc;
+	text-align: left;
+}
+
+table.course-table th {
+	background: #f4f6f9;
+	color: #224b8d;
+	text-align: left;
+}
+
+table.course-table th:last-child,
+table.course-table td:last-child {
+	width: 5em;
+	text-align: right;
+}
+
+.awards-section {
+	max-width: 760px;
+}
+
+.awards-section h3 {
+	margin-top: 1.8em;
+	margin-bottom: 0.35em;
+	padding-bottom: 0.45em;
+	border-bottom: 1px solid #d8dee8;
+	color: #527bbd;
+	font-size: 95%;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.award-item {
+	padding: 0.85em 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.award-main {
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
+	align-items: baseline;
+}
+
+.award-main strong {
+	font-weight: 600;
+}
+
+.award-year {
+	color: #777777;
+	white-space: nowrap;
+	font-size: 95%;
+}
+
+.award-meta,
+.award-note {
+	margin-top: 0.35em;
+	color: #777777;
+	font-size: 92%;
+}
+
+.badge {
+	display: inline-block;
+	padding: 0.15em 0.5em;
+	margin-right: 0.4em;
+	border-radius: 4px;
+	background: rgba(79, 118, 181, 0.10);
+	color: #4f76b5;
+	font-weight: 600;
+}
+
+.featured .award-main strong {
+	color: #315f9f;
+}
+
 tr.heading {
 	font-weight: bold;
 	border-bottom: 2px solid black;

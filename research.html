@@ -23,67 +23,9 @@
 <h1>Research</h1>
 </div>
 
-<h2>1. Machine Learning &times; Aviation: Turbofan Engine Fault Risk Prediction</h2>
-<h3>Physics-Informed Feature Engineering and Multi-Model Fusion for Turbofan Engine Fault Risk Prediction</h3>
-
-<p><b>Background:</b> Predictive maintenance of turbofan engines is a core challenge in Aviation Industry 4.0. While machine learning methods have become mainstream, they still commonly suffer from homogeneous feature engineering and the difficulty of balancing prediction performance with interpretability.</p>
-
-<p><b>Research Content:</b></p>
-<ol>
-<li><p><b>Data Preprocessing:</b> Comprehensive statistical analysis including outlier handling, missing value imputation, and feature encoding.</p></li>
-<li><p><b>Physics-Informed Feature Engineering:</b> Constructed features based on gas turbine thermodynamic principles to characterize engine degradation mechanisms, including lifecycle stage discretization, thermodynamic ratios (pressure ratio, temperature ratio), and other advanced features.</p></li>
-<li><p><b>Class Imbalance Handling:</b> Implemented SMOTE and other oversampling strategies within a cross-validation framework.</p></li>
-<li><p><b>Model Training &amp; Evaluation:</b> Bayesian optimization for efficient hyperparameter tuning across multiple ML models, with 5-fold cross-validation and threshold search for improved classification accuracy.</p></li>
-<li><p><b>Interpretability Analysis:</b> Introduced SHAP framework at both global and individual levels for the best-performing single model.</p></li>
-<li><p><b>Engineering Application:</b> Built weighted fusion (F1-score power-based) and Stacking ensemble strategies for improved generalization.</p></li>
-</ol>
-
-<p><b>Key Results:</b></p>
-<ul>
-<li><p>GBDT achieved optimal performance: <b>ROC-AUC = 99.24%</b>, <b>F1-score = 85.19%</b></p></li>
-<li><p>SHAP analysis revealed that lifecycle stage discretization, cumulative operating cycles, and high-pressure compressor outlet static pressure are the key factors driving fault risk</p></li>
-<li><p>Validated the effectiveness of integrating thermodynamic principles into feature engineering</p></li>
-</ul>
-
-<p><b>Innovation Highlights:</b></p>
-<ul>
-<li><p>Transformed gas turbine performance theory into computable features (pressure ratio, temperature ratio, lifecycle stage transitions), breaking through the limitations of purely data-driven feature engineering</p></li>
-<li><p>Used SHAP results for reverse validation of feature design consistency with domain knowledge</p></li>
-<li><p>Consciously distinguished between scientific interpretation and engineering prediction objectives</p></li>
-</ul>
-
-<hr />
-
-<h2>2. Deep Learning &times; Computer Vision: Aerial Image Object Detection</h2>
-<h3>Align-Det: End-to-End Real-Time Small Object Detection in Aerial Images</h3>
-
-<p><b>Background:</b> Small object detection in aerial images suffers from low accuracy and poor real-time performance. Based on YOLOv8, we designed Align-Det, an end-to-end real-time detector for high-resolution aerial images, targeting resource-constrained embedded flight devices.</p>
-
-<p><b>Core Innovations:</b></p>
-<ol>
-<li><p><b>Feature Complementary Mapping Module (FCM):</b> Transfers shallow spatial position information to deep semantic features, mitigating small object information loss during downsampling through a channel-spatial bidirectional complementary mapping mechanism.</p></li>
-<li><p><b>Multi-Kernel Perception Unit:</b> Employs multi-scale convolution kernel cascade structure (3&times;3, 5&times;5, 7&times;7) to enhance perception capability for objects at different scales.</p></li>
-<li><p><b>Network Lightweight Design:</b> Redesigned downsampling strategy (group convolution followed by channel expansion), reducing parameters by 18% and computation by 11% compared to baseline.</p></li>
-</ol>
-
-<p><b>Experimental Results:</b></p>
-<ul>
-<li><p>Evaluated on VisDrone, UAVDT, and AI-TOD benchmarks</p></li>
-<li><p>Compared to YOLOv8 series: <b>66-74% parameter reduction</b> with <b>1.2-2.3% accuracy improvement</b></p></li>
-<li><p>Align-Det performance surpassed several SOTA methods</p></li>
-<li><p>Ablation studies validated the rationality and effectiveness of each module</p></li>
-</ul>
-
-<p><b>Output:</b> Accepted for presentation at <a href="https://2026.ieee-wcci.org/" target="_blank">IJCNN 2026</a> (IEEE WCCI 2026). Available as preprint on arXiv.</p>
-
-<hr />
-
-<h2>3. Large Language Models &times; RAG &times; Agent</h2>
-<p><i>Research in progress.</i></p>
-
 <div id="footer">
 <div id="footer-text">
-Last updated: Feb 2026
+Last updated: Sep 2026
 </div>
 </div>
 </td>
