@@ -318,24 +318,41 @@ table.course-table td:last-child {
 }
 
 .awards-section {
-	max-width: 760px;
+	max-width: 680px;
+	margin-top: 1.5em;
+}
+
+.awards-section > h2 {
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .awards-section h3 {
-	margin-top: 1.8em;
-	margin-bottom: 0.35em;
-	padding-bottom: 0.45em;
-	border-bottom: 1px solid #d8dee8;
-	color: #527bbd;
-	font-size: 95%;
+	margin-top: 0;
+	margin-bottom: 0.3em;
+	padding: 0;
+	border-bottom: none;
+	color: #4774b7;
+	font-size: 115%;
 	font-weight: 600;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.award-group {
+	margin-top: 1.35em;
+}
+
+.award-group + .award-group {
+	margin-top: 1.8em;
 }
 
 .award-item {
-	padding: 0.85em 0;
-	border-bottom: 1px solid #e8e8e8;
+	padding: 0.7em 0 0.8em;
+}
+
+.award-item + .award-item {
+	border-top: 1px solid #eeeeee;
 }
 
 .award-main {
@@ -347,33 +364,28 @@ table.course-table td:last-child {
 
 .award-main strong {
 	font-weight: 600;
+	font-size: 108%;
+	color: #202124;
 }
 
 .award-year {
-	color: #777777;
+	color: #737373;
 	white-space: nowrap;
 	font-size: 95%;
+	font-weight: 400;
+	font-variant-numeric: tabular-nums;
 }
 
 .award-meta,
 .award-note {
-	margin-top: 0.35em;
+	margin-top: 0.28em;
 	color: #777777;
 	font-size: 92%;
 }
 
-.badge {
-	display: inline-block;
-	padding: 0.15em 0.5em;
-	margin-right: 0.4em;
-	border-radius: 4px;
-	background: rgba(79, 118, 181, 0.10);
-	color: #4f76b5;
+.award-highlight {
+	color: #4774b7;
 	font-weight: 600;
-}
-
-.featured .award-main strong {
-	color: #315f9f;
 }
 
 tr.heading {
@@ -383,6 +395,34 @@ tr.heading {
 
 img {
 	border: none;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+	gap: 0.7em;
+}
+
+.social-links a,
+.social-links .social-icon {
+	display: inline-flex;
+	align-items: center;
+	line-height: 0;
+}
+
+.social-links a:hover {
+	border-bottom: none;
+	opacity: 0.72;
+}
+
+.social-links img {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+}
+
+.pending-profile {
+	cursor: default;
 }
 
 table.imgtable, table.imgtable td {
