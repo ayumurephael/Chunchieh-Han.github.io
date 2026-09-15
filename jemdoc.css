@@ -313,79 +313,17 @@ table.course-table th {
 
 table.course-table th:last-child,
 table.course-table td:last-child {
-	width: 5em;
+	width: 9em;
 	text-align: right;
 }
 
 .awards-section {
-	max-width: 680px;
 	margin-top: 1.5em;
 }
 
 .awards-section > h2 {
 	margin-top: 0;
 	padding-top: 0;
-}
-
-.awards-section h3 {
-	margin-top: 0;
-	margin-bottom: 0.3em;
-	padding: 0;
-	border-bottom: none;
-	color: #4774b7;
-	font-size: 115%;
-	font-weight: 600;
-	letter-spacing: 0;
-	text-transform: none;
-}
-
-.award-group {
-	margin-top: 1.35em;
-}
-
-.award-group + .award-group {
-	margin-top: 1.8em;
-}
-
-.award-item {
-	padding: 0.7em 0 0.8em;
-}
-
-.award-item + .award-item {
-	border-top: 1px solid #eeeeee;
-}
-
-.award-main {
-	display: flex;
-	justify-content: space-between;
-	gap: 1em;
-	align-items: baseline;
-}
-
-.award-main strong {
-	font-weight: 600;
-	font-size: 108%;
-	color: #202124;
-}
-
-.award-year {
-	color: #737373;
-	white-space: nowrap;
-	font-size: 95%;
-	font-weight: 400;
-	font-variant-numeric: tabular-nums;
-}
-
-.award-meta,
-.award-note {
-	margin-top: 0.28em;
-	color: #777777;
-	font-size: 92%;
-}
-
-.award-highlight {
-	color: #4774b7;
-	font-weight: 600;
 }
 
 tr.heading {
