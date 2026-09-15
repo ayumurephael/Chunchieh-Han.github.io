@@ -302,28 +302,38 @@ table.course-table th,
 table.course-table td {
 	padding: 0.45em 0.7em;
 	border: 1px solid #cccccc;
-	text-align: left;
+	text-align: center;
 }
 
 table.course-table th {
 	background: #f4f6f9;
 	color: #224b8d;
-	text-align: left;
+	text-align: center;
+	white-space: nowrap;
 }
 
 table.course-table th:last-child,
 table.course-table td:last-child {
 	width: 9em;
-	text-align: right;
+	text-align: center;
+	white-space: nowrap;
 }
 
 .awards-section {
+	width: 100%;
+	max-width: none;
 	margin-top: 1.5em;
 }
 
 .awards-section > h2 {
+	width: 100%;
+	box-sizing: border-box;
 	margin-top: 0;
 	padding-top: 0;
+}
+
+.nowrap-award {
+	white-space: nowrap;
 }
 
 tr.heading {
