@@ -350,44 +350,6 @@ table.course-table td:last-child {
 	margin-bottom: 0.6em;
 }
 
-ul.academic-list {
-	list-style: none;
-	margin-left: 0;
-	padding-left: 1.35em;
-}
-
-ul.academic-list > li {
-	position: relative;
-}
-
-ul.academic-list > li::before {
-	left: -1.55em;
-	position: absolute;
-}
-
-ul.performance-list > li::before {
-	color: #527bbd;
-	content: "\2713";
-	font-size: 0.82em;
-	font-weight: bold;
-	top: 0.1em;
-}
-
-ul.award-list > li::before {
-	color: #b2862c;
-	content: "\2605";
-	font-size: 0.72em;
-	top: 0.22em;
-}
-
-ul.interest-list > li::before {
-	color: #527bbd;
-	content: "\203A";
-	font-size: 1.2em;
-	font-weight: bold;
-	top: -0.13em;
-}
-
 tr.heading {
 	font-weight: bold;
 	border-bottom: 2px solid black;
