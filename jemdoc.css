@@ -336,6 +336,10 @@ table.course-table td:last-child {
 	white-space: nowrap;
 }
 
+.award-highlight {
+	color: #c00000;
+}
+
 tr.heading {
 	font-weight: bold;
 	border-bottom: 2px solid black;
