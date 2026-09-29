@@ -340,6 +340,10 @@ table.course-table td:last-child {
 	color: #c00000;
 }
 
+.news-icon {
+	margin-right: 0.35em;
+}
+
 tr.heading {
 	font-weight: bold;
 	border-bottom: 2px solid black;
